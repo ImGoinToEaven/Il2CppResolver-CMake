@@ -5,7 +5,9 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(Il2CppResolver INTERFACE)
+file(GLOB_RECURSE SOURCES src/*.cpp)
+
+add_library(Il2CppResolver ${SOURCES})
 
 target_include_directories(Il2CppResolver INTERFACE
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}>
