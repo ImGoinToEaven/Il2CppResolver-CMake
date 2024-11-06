@@ -22,7 +22,7 @@ target_include_directories(Il2CppResolver PRIVATE
         ${CMAKE_CURRENT_SOURCE_DIR}/src/Utils
 )
 
-install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/IL2CPP_Resolver.hpp DESTINATION include)
+install(FILES ${CMAKE_CURRENT_SOURCE_DIR}/src/il2cpp_resolver.hpp DESTINATION include)
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/src/Functions DESTINATION lib/Il2CppResolver/private)
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/src/Unity DESTINATION lib/Il2CppResolver/private)
