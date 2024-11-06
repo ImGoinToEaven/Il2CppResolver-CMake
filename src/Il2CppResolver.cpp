@@ -1,4 +1,4 @@
-#include "il2cpp_resolver.hpp"
+#include "Il2CppResolver.hpp"
 
 namespace IL2CPP
 {
